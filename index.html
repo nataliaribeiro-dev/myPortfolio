@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Natalia Ribeiro - Portfólio</title>
 </head>
 <body>
+<!-- Nav bar section -->
     <nav>
         <div id="logo">
-            <ul>
+            <ul style="list-style: none;">
                 <li>Natália Ribeiro</li>   
             </ul>
         </div>
         <div id="menu">
-            <ul>
+            <ul style="list-style: none;">
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Vamos<br> Conversar?</a></li>
-               
             </ul>
         </div>
     </nav>
+    <!-- Header with img and call to action -->
     <header>
-        <img style="width: 200px;" src="./images/Natalia.jpeg" alt="foto de uma mulher sorrindo">
-        <h1>Sobre mim</h1>
-        <p>Olá! Eu sou a Natália.</p>
-        <p><em>Desenvolvedora Web, <br> morando em Florianópolis-SC.</em></p>
+        <div id="container">
+            <img style="width: 200px;" src="./images/Natalia.jpeg" alt="foto de uma mulher sorrindo">
+        </div>
+        <h1>Natália Ribeiro</h1>
+        <h2><em>Desenvolvedora Web</em><h2>
+
+        <div class="about">
+            <h2 style="font-weight: 700;font-size:larger;">Sobre mim</h2>
+            <p style="font-weight: 200;font-size:large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore mollitia veniam aperiam ratione, odio reiciendis natus error, itaque repudiandae officia nihil harum soluta. Repellendus accusantium tenetur tempore sapiente earum veniam!</p>
+        </div>
     </header>    
+ <!-- Skill section -->
     <section>
         <h1 id="skills">Skills</h1>
         <ul>
@@ -37,18 +46,54 @@
             <li>Foco</li>
         </ul>
     </section>
+    <!-- projects sections -->
     <section>
         <h1 id="projetos">Projetos</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.
+        </p>
+        <div class="box-cards">
+            <div class="card1">
+                  <h2>Projeto 1</h2>
+                  <p>ipsumipsumipsumipsumipsum <br> 
+                    ipsumipsumipsumipsumipsum</p>
+                  <img class="img" src="#" alt=""/>
+            </div>
+           
+            <div class="card2">
+                  <h2>Projeto2</h2>
+                  <p>ipsumipsumipsumipsumipsum <br>
+                    ipsumipsumipsumipsumipsumipsum</p>
+                  <img class="img" src="#" alt=""/>
+            </div>
+           
+            <div class="card3">
+                  <h2>Projeto 3</h2>
+                  <p>ipsumipsumipsumipsumipsum</p>
+                  <img class="img" src="#" alt=""/>
+            </div>
+            
+            
+        </div>
     </section>
+    <!-- Contact me section -->
     <section>
         <h1 id="contato">Vamos Conversar?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, illum mollitia quidem vitae quod. Molestiae ab modi cumque id reiciendis quibusdam veniam, explicabo ipsa eos deleniti suscipit reprehenderit ad.</p>
+        <ul>
+            <li><a href="#">What's App</a></li>
+            <li><a href="#">E-mail</a></li>
+            <li><a href="#">Linkdin</a></li>
+            <li><a href="#">Github</a></li>
+        </ul>
+        
     </section>
+   <!-- Section news -->
     <section>
-        <h2>Quer saber mais sobre Desenvolvimento Web?</h2>
-        <a href="https://blog.betrybe.com/carreira/desenvolvedor-web-tudo-sobre/" target="_blank">Clique Aqui!</a>
+        <div class="more">
+            <h2>Quer saber mais sobre Desenvolvimento Web?</h2>
+            <a href="https://blog.betrybe.com/carreira/desenvolvedor-web-tudo-sobre/" target="_blank">Clique Aqui!</a>
+        </div>
     </section>
+   
     <footer>
         <div>
             <p>Criado por Natalia Ribeiro - 2023.</p>
