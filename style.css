@@ -10,6 +10,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     background-color: whitesmoke;
     width: 100%;
+    background-color: #845131;
 } 
 
 .menu-container{
@@ -22,7 +23,7 @@ body{
 .menu {
     display: inline-block;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     
 }
@@ -40,30 +41,23 @@ body{
 }
 
 .blank {
+    background-color: #0b0a09;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     height: 200px;
-    border: 2px solid red;
+    
 }
 
 header{
     display: inline-block;
-    margin: auto;
     background-color: #fff;
-    text-align: center;
-}
-
-.header-container{
-    position: relative;
-    z-index: 1;  
-    border: 2px solid yellow;
-    
+    text-align: centreplieser;
 }
 
 img{
     position:absolute;
-    z-index: 1;
-    margin-top: -90px; 
+    z-index: 2;
+    margin-top: -70px; 
     left: 42%;   
     width: 180px;
     border: 10px solid 2px;
@@ -71,12 +65,17 @@ img{
     
 }
 
+
 .name{
     position: relative;
-    z-index: 2;
-    margin: 110px;
-    font-size: 60px;
-    border: 2px solid red;
+    z-index: 1;
+    text-align: center;
+    width: 50%;
+    top: 120px;
+    bottom: 50px;
+    left: 300px;
+    font-size: 50px;
+    
     
 }
 
@@ -88,4 +87,26 @@ img{
 
 .name h2{
     color: #dba451;
+}
+
+.aboutme h2{
+    font-size: 40px;
+    padding: 40px;
+}
+
+.aboutme{
+    background-color: #fff;
+    position: relative;
+    top: 150px;
+    text-align: center;   
+    
+}
+
+.content{
+    width: 55%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
 }
