@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	font-size: 100%;
+    
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #dba451;
+} 
+
+.menu-container{
+    margin: auto;
+    width: 90%;
+    background-color:#dba451;
+    border-radius: 2px;
+}
+
+.menu {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:hover{
+    
+    border-bottom: 2px solid black;
+    
+}
+
+.menu a{
+    color: #000;
+    font-weight:300;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.blank {
+    background-color: #0b0a09;
+    height: 200px;
+    
+}
+
+header{
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+
+img{
+    position:absolute;
+    z-index: 2;
+    margin-top: -60px; 
+    left: 42%;   
+    width: 180px;
+    border: 10px solid 2px;
+    border-radius: 15%;
+    
+}
+
+
+.name{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 50%;
+    top: 60%;
+    bottom: 50px;
+    left: 320px;
+    font-size: 50px;
+    
+    
+}
+
+.name h1{
+    color:#000;
+    font-weight: 300;
+    
+}
+
+.name h2{
+    color: #dba451;
+}
+
+.aboutme h2{
+    font-size: 40px;
+    padding: 35px;
+}
+
+.button{
+    border: 2px solid black;
+    margin: 30px auto;
+    padding: 10px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.button p{
+    color: #000;
+}
+
+.button p:hover{
+      
+    color: #845131;
+}
+
+.aboutme{
+    background-color: #fff;
+    position: relative;
+    top: 400px;
+    text-align: center;   
+    
+    
+}
+
+.content{
+    width: 52%;
+    padding: 10px;
+    margin: auto;
+    bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+.skills{
+    display: inline-block;
+    position: absolute;
+    width: 90%;
+    top: 1138px;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+    
+
+}
+
+.skills ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.skills h1{
+    position: relative;
+    width: 200px;
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+    color:#000 ;
+    font-size: 45px;
+  
+}
+
+.skills li{
+    display: inline-block;
+    width: 250px;
+    margin: 60px;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.skills li:hover{
+    background-color:#845131;
+    padding: 10px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.contato{
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    top: 239%;
+    color: black;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.contato h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;;
+    padding: 20px;
+}
+
+.contato a{
+    position: absolute;
+    display: inline-block;
+}
+
+.contato img{
+    position: relative;
+    margin: auto;
+    padding: 15px;
+   
+}
+
